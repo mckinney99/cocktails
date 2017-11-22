@@ -12,8 +12,6 @@ class Cocktails::Drink
   drink_1 = self.new
   drink_1.name = "manhattan"
   drink_1.info = "the manhattan is a blah blah blah"
-  drink_1.url = https://vinepair.com/articles/50-most-popular-cocktails-world-2017/
-  end
-
-
+  drink_1.url = https://vinepair.com/articles/50-most-popular-cocktails-world-2017
 end
+end 
