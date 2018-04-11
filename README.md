@@ -1,6 +1,6 @@
 # Cocktails
 
-Welcome to the interactice cocktails CLI gem. If you would like a list of the worlds most popular cocktails, run `bin/cocktails` in your console for an interactive prompt.
+Welcome to the interactive cocktails CLI gem. If you would like a list of the worlds most popular cocktails, run `bin/cocktails` in your console for an interactive prompt.
 
 You can select which number of cocktail you would like to learn more about. If you are having problems viewing the gem, try running 'bundle install' in your console.
 
@@ -22,17 +22,17 @@ Or install it yourself as:
 
 ## Usage
 
-Terminal: bin/cocktails and select the drink number you would like more information on.
+In terminal type: "bin/cocktails" and select the drink number you would like more information on. Upon selecting, your terminal should display a description of the cocktail, along with the basic recipe and ingredients for you to try on your own.
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/cocktails` for an interactive prompt that will allow you to experiment.
+After checking out the repo, run `bin/setup` to install dependencies. 
 
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/mckinney99/cocktails.
+Bug reports, pull requests and anything else are welcome on GitHub at https://github.com/mckinney99/cocktails.
 
 ## License
 
