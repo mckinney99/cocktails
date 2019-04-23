@@ -1,6 +1,6 @@
 # Cocktails
 
-Welcome to the interactive cocktails CLI gem. If you would like a list of the worlds most popular cocktails, run `bin/cocktails` in your console for an interactive prompt.
+Welcome to the interactive cocktails CLI gem. If you would like a list of the worlds most popular cocktails, run 'bundle install', then run `bin/cocktails` in your console for an interactive prompt.
 
 You can select which number of cocktail you would like to learn more about. If you are having problems viewing the gem, try running 'bundle install' in your console.
 
