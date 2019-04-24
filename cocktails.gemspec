@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{"A list of cocktails"}
   spec.description   = %q{"The most popular cocktails in the world"}
-  spec.homepage      = "http://www.sorry.com"
+  spec.homepage      = "http://www.emckin.com"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -28,5 +28,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "pry"
-  spec.add_dependency "nokogiri"
+  spec.add_development_dependency 'rb-readline'
+  spec.add_dependency "nokogiri", "~> 1.10"
 end

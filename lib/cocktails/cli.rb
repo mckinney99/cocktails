@@ -6,12 +6,12 @@ class Cocktails::CLI
 
   def list_cocktails
     puts "The most popular cocktails in the world are:"
-    Cocktails::Drink.save_drinks  
+    Cocktails::Drink.save_drinks
     Cocktails::Drink.all.each do |drink|
     puts "#{drink.name}"
     end
   end
-   
+
 
   def start
     list_cocktails
@@ -31,6 +31,8 @@ class Cocktails::CLI
         puts "#{drink.name}"
         puts '----------'
         puts "#{drink.description}"
+
+
       end
     end
     puts "Goodbye!"
